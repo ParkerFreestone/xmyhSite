@@ -28,7 +28,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
 }
 
 .join-wrapper > .form > .bottom > .input {
