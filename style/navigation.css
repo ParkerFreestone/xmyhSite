@@ -78,8 +78,6 @@
 
 .navigation-wrapper > .right > .top a:hover{
     color: #ffffff;
-    text-decoration: none;
-    font-size: 5rem;
 }
 
 .navigation-wrapper > .right > .top > .t-1 {
@@ -123,6 +121,4 @@
 
 .navigation-wrapper > .right > .bottom a:hover{
     color: #ffffff;
-    text-decoration: none;
-    font-size: 5rem;
 }

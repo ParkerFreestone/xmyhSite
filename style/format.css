@@ -1,0 +1,29 @@
+
+@media only screen and (max-width: 600px) {
+
+    .navigation-wrapper {
+        width: 100vw;
+        height: 200vh;
+        flex-direction: column;
+    }
+    
+
+    .navigation-wrapper > .left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .navigation-wrapper > .right {
+        width: 100%;
+        height: 50%;
+    }
+
+    .navigation-wrapper > .right > .top a{
+        font-size: 4rem;
+    }
+
+    .navigation-wrapper > .right > .bottom a{
+        font-size: 4rem;
+    }
+
+}
