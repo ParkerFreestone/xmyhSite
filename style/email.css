@@ -21,7 +21,7 @@
     color: #EDDEA4;
 }
 
-.join-wrapper > .bottom {
+.join-wrapper > .form > .bottom {
     width: 100vw;
     height: 50%;
     display: flex;
