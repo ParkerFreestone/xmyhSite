@@ -82,6 +82,10 @@
     text-decoration: none;
     font-size: 5rem;
     transition: 0.2s ease;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navigation-wrapper > .right > .top a:hover{
