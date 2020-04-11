@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #EDDEA4;
 }
 
@@ -78,7 +78,6 @@
     background: none;
     color: #EDDEA4;
     border: 2px solid #EDDEA4;
-    border-radius: 4px;
     transition: 0.3s ease;
     outline: none;
     margin-bottom: 50px;
