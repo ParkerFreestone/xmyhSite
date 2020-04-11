@@ -30,19 +30,28 @@
     flex-direction: column;
 }
 
-.join-wrapper > .bottom > .input {
-    width: 60%;
+.join-wrapper > .form > .bottom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-wrapper > .form > .bottom > .input {
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.join-wrapper > .bottom > .input input::placeholder{
+.join-wrapper > .form > .bottom > .input input::placeholder{
     color: #EDDEA4;
 }
 
-.join-wrapper > .bottom > .input input{
+.join-wrapper > .form > .bottom > .input input{
     width: 100%;
     padding: 20px;
     font-size: 1.2rem;
@@ -54,7 +63,7 @@
     margin-bottom: 50px;
 }
 
-.join-wrapper > .bottom > .input input:focus {
+.join-wrapper > .form > .bottom > .input input:focus {
     width: 100%;
     padding: 20px;
     font-size: 1.2rem;
@@ -62,7 +71,7 @@
     border-bottom: 2px solid #EDDEA4;
 }
 
-.join-wrapper > .bottom > .submit input{
+.join-wrapper > .form > .bottom > .submit input{
     width: 100%;
     padding: 10px 40px;
     font-size: 1.2rem;
@@ -75,7 +84,7 @@
     margin-bottom: 50px;
 }
 
-.join-wrapper > .bottom > .submit input:hover {
+.join-wrapper > .form > .bottom > .submit input:hover {
     font-size: 1.2rem;
     background: rgba(0, 0, 0, 0.3);
     border-bottom: 2px solid #EDDEA4;
