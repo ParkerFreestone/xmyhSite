@@ -1,0 +1,82 @@
+
+.join-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: #0FA3B1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.join-wrapper > .top {
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 3rem;
+    color: #EDDEA4;
+}
+
+.join-wrapper > .bottom {
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.join-wrapper > .bottom > .input {
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-wrapper > .bottom > .input input::placeholder{
+    color: #EDDEA4;
+}
+
+.join-wrapper > .bottom > .input input{
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2rem;
+    background: none;
+    color: #EDDEA4;
+    border-bottom: 2px solid #EDDEA4;
+    transition: 0.3s ease;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+.join-wrapper > .bottom > .input input:focus {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.075);
+    border-bottom: 2px solid #EDDEA4;
+}
+
+.join-wrapper > .bottom > .submit input{
+    width: 100%;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    background: none;
+    color: #EDDEA4;
+    border: 2px solid #EDDEA4;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+.join-wrapper > .bottom > .submit input:hover {
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #EDDEA4;
+}
