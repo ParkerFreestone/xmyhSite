@@ -1,0 +1,21 @@
+
+.shop-wrapper {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.shop-wrapper > .header {
+    color: rgb(20, 20, 20);
+    font-size: 2.3rem;
+    transform: translate(200px, 0px)
+}
+
+.shop-wrapper > .uh-oh {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    transform: translate(200px, -100px)
+}
